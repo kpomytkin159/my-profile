@@ -1,0 +1,57 @@
+p {
+
+    color: dodgerblue;
+}
+ #ml {
+
+    color: red;
+ }
+
+ div b {
+    color: green;
+ }
+
+ .main {
+
+    color: red;
+    text-decoration: none;
+ }
+
+ .main:hover {
+
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: darkmagenta;
+    cursor: pointer;
+
+ }
+
+ .main:active {
+
+    text-decoration: line-through;
+ }
+
+ .main:visited {
+
+    text-decoration: line-through;
+    color: gray;
+ }
+
+ div:hover{
+
+    background-color: blue;
+ }
+
+ input {
+
+    color: red;
+ }
+
+ input:focus{
+     color: blue;
+ }
+
+ p:empty {
+
+    background-color: black;
+ }

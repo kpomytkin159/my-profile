@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial',sans-serif;
+    line-height: 1.6;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.about, .skills {
+
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0  4px  6px  rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+
+    background: #e3f2fd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+button {
+
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: abckground 0.3s;
+}
+
+button:hover {
+
+    background: #ff5252;
+}
+
+footer {
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    color: #777;
+}
+
+
+@media (max-width: 600px)  {
+
+    body {
+        padding:10px;
+    }
+
+    h1 {
+        font-size:2rem;
+    }
+}
+
+.animate {
+    animation: pulse 1s;
+}
+
+@keyframes pulse {
+
+    0% {transform: scale(1); }
+    50% {transform: scale(1.05); }
+    100% {transform: scale(1); }
+}
